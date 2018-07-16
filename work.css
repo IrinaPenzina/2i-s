@@ -74,6 +74,7 @@ nav a:hover::before {
 	height:100%;
 }
 .work-text {
+	text-align: center;
 	padding-left: 150px;
 	padding-right: 100px;
 	width: 700px;
