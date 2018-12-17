@@ -1,25 +1,27 @@
 var bannerStatus = 1;
 var bannerTimer = 4000;
 
+// slider starts working on load
 window.onload = function() {
 	bannerLoop();	
 	var startBannerLoop = setInterval(function() {
 	bannerLoop();
 	}, bannerTimer);
 	
+	// onmouseover banner stops
 	document.getElementById("main-banner").onmouseover = function() {
 		console.log("Inside onmouseover function")
 		clearInterval(startBannerLoop);
 	},
 	document.getElementById("main-banner").onmouseout = function() {
 		startBannerLoop = setInterval(function() {
-	bannerLoop();
+		bannerLoop();
 	}, bannerTimer);
-	}
+	},
 	document.getElementById("imgbanbtn-prev").onclick = function() {
 		console.log("Inside bannerLoop2 function")
 		bannerLoop2();
-	}
+	},
 	document.getElementById("imgbanbtn-next").onclick = function() {
 		bannerLoop();
 	}
