@@ -1,6 +1,5 @@
 h1 {
 	font-family: 'Helvetica Neue', sans-serif;
-	font-style:italic;
 	text-align:center;
 	font-weight:bolder;
 	color:#444;
@@ -12,15 +11,14 @@ h1 a {
 	height:100%;
 }
 h2 {
-	font-family:"Courier New", Courier;
-	font-style:italic;
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align:center;
 	font-weight:bolder;
 	font-size:40px;
 	color:#444;
 }
 nav {
-	font-family:"Courier New", Courier;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size:130%;
 	text-align:center;
 	font-weight:bold;
@@ -78,8 +76,8 @@ nav a:hover::before {
 	padding-right: 100px;
 	width: 700px;
 	height: 1100px;
-	font-family:"Courier New", Courier;
-	font-style:italic;
+	font-family: 'Helvetica Neue', sans-serif;
+	color:#444;
 	text-align: justify;
 }
 .zoom {
