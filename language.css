@@ -87,9 +87,7 @@ nav a:hover::before {
 .zoom:hover { 
 	zoom: 1;
 }
-.zoom {
-	margin-left:230px;
-}
+
 footer{
 	padding-top:50px;
 }
