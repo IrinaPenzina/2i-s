@@ -104,4 +104,6 @@ footer li {
 }
 footer p {
 	float: right;
+	font-family: 'Helvetica Neue', sans-serif;
+	color:#444;
 }
