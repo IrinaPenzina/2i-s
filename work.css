@@ -92,6 +92,9 @@ nav a:hover::before {
 	padding-right: 50px;
 	transition: transform .2s;
 }
+.zoom2 {
+	transition: transform .2s;
+}
 
 .zoom:hover { 
 	-ms-transform: scale(2.3); /* IE 9 */
@@ -99,6 +102,16 @@ nav a:hover::before {
   	transform: scale(2.3); 
 }
 
+.zoom1:hover { 
+	-ms-transform: scale(2.3); /* IE 9 */
+  	-webkit-transform: scale(2.3); /* Safari 3-8 */
+  	transform: scale(2.3); 
+}
+.zoom2:hover { 
+	-ms-transform: scale(2.3); /* IE 9 */
+  	-webkit-transform: scale(2.3); /* Safari 3-8 */
+  	transform: scale(2.3); 
+}
 footer{
 	padding-top:50px;
 }
