@@ -80,6 +80,9 @@ nav a:hover::before {
 	color:#444;
 	text-align: justify;
 }
+.work-text a{
+	color:#000000;
+}
 .zoom {
 	padding-left: 150px;
 	padding-right: 50px;
