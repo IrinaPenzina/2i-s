@@ -85,12 +85,14 @@ nav a:hover::before {
 }
 
 .zoom:hover { 
-	zoom: 2;
-	text-align: center;
+	-ms-transform: scale(1.5); /* IE 9 */
+  	-webkit-transform: scale(1.5); /* Safari 3-8 */
+  	transform: scale(1.5); 
 }
 
 .zoom {
 	margin-left:230px;
+	transition: transform .2s;
 }
 
 footer{
