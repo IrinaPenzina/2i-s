@@ -85,7 +85,7 @@ nav a:hover::before {
 }
 
 .zoom:hover { 
-	zoom: 3;
+	zoom: 1;
 }
 .zoom {
 	margin-left:230px;
