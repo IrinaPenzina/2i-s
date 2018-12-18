@@ -86,9 +86,17 @@ nav a:hover::before {
 .zoom {
 	padding-left: 150px;
 	padding-right: 50px;
+	transition: transform .2s;
 }
 .zoom1 {
 	padding-right: 50px;
+	transition: transform .2s;
+}
+
+.zoom:hover { 
+	-ms-transform: scale(2.3); /* IE 9 */
+  	-webkit-transform: scale(2.3); /* Safari 3-8 */
+  	transform: scale(2.3); 
 }
 
 footer{
