@@ -86,6 +86,7 @@ nav a:hover::before {
 
 .zoom:hover { 
 	zoom: 2;
+	text-align: center;
 }
 
 .zoom {
