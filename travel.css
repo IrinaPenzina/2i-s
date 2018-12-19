@@ -80,6 +80,9 @@ nav a:hover::before {
 	color:#444;
 	text-align: justify;
 }
+.travel-text a {
+	color:#444;
+}
 footer{
 	padding-top:50px;
 }
@@ -94,4 +97,5 @@ footer li {
 footer p {
 	float: right;
 	font-family: 'Helvetica Neue', sans-serif;
+	color:#444;
 }
