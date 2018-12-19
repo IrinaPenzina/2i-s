@@ -12,18 +12,18 @@ window.onload = function() {
 	document.getElementById("main-banner").onmouseover = function() {
 		console.log("Inside onmouseover function")
 		clearInterval(startBannerLoop);
-	},
+	}
 	document.getElementById("main-banner").onmouseout = function() {
 		bannerLoop();
 		console.log("Inside onmouseout function")
 		startBannerLoop = setInterval(function() {
 		bannerLoop();
 	}, bannerTimer);
-	},
+	}
 	document.getElementById("imgbanbtn-prev").onclick = function() {
 		console.log("Inside bannerLoop2 onclick prev function")
 		bannerLoop2();
-	},
+	}
 	document.getElementById("imgbanbtn-next").onclick = function() {
 		console.log("Inside bannerLoop onclick next function")
 		bannerLoop();
