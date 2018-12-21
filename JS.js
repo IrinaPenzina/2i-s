@@ -3,29 +3,31 @@ var bannerTimer = 4000;
 
 // slider starts working on load
 window.onload = function() {
-	bannerLoop();	
-	var startBannerLoop = setInterval(function() {
-	bannerLoop();
-	}, bannerTimer);
-	
-	document.getElementById("main-banner").onmouseover = function() {
-		console.log("Inside onmouseover function")
-		clearInterval(startBannerLoop);
-	},
-	document.getElementById("main-banner").onmouseout = function() {
-		startBannerLoop = setInterval(function() {
-	bannerLoop();
-	}, bannerTimer);
-	}
-	document.getElementById("imgbanbtn-prev").onclick = function() {
-		console.log("Inside bannerLoop2 function")
-		bannerLoop2();
-	}
-	document.getElementById("imgbanbtn-next").onclick = function() {
-		bannerLoop();
-	}
+    bannerLoop();  
+    var startBannerLoop = setInterval(function() {
+    bannerLoop();
+    }, bannerTimer);
+    // on mouse over loop stops
+    document.getElementById("main-banner").onmouseover = function() {
+        console.log("Inside onmouseover function")
+        clearInterval(startBannerLoop);
+    },
+    // on mouse out it restarts sliding to the right
+    document.getElementById("main-banner").onmouseout = function() {
+        startBannerLoop = setInterval(function() {
+    bannerLoop();
+    }, bannerTimer);
+    }
+    // on click on the left arrow on the slider it slides back
+    document.getElementById("imgbanbtn-prev").onclick = function() {
+        console.log("Inside bannerLoop2 function")
+        bannerLoop2();
+    }
+    // on click on the right arrow on the slider it slides forward
+    document.getElementById("imgbanbtn-next").onclick = function() {
+        bannerLoop();
+    }
 }
-
 // first loop to slide pictures to the right
 function bannerLoop() {
 	if (bannerStatus === 1) {
