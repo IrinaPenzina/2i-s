@@ -83,6 +83,10 @@ nav a:hover::before {
 .work-text a{
 	color:#444;
 }
+.zoom0 {
+	padding-right: 50px;
+	transition: transform .2s;
+}
 .zoom {
 	padding-left: 150px;
 	padding-right: 50px;
