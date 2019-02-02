@@ -86,7 +86,8 @@ nav a:hover::before {
 .zoom3 {
 	padding-left: 250px;
 	padding-right: 100px;
-	transition: transform .1s;
+	padding-bottom: 20px;
+	transition: transform .2.5s;
 }
 .zoom {
 	padding-left: 150px;
