@@ -75,7 +75,7 @@ nav a:hover::before {
 	padding-left: 150px;
 	padding-right: 100px;
 	width: 700px;
-	height: 900px;
+	height: 850px;
 	font-family: 'Helvetica Neue', sans-serif;
 	color:#444;
 	text-align: justify;
@@ -84,7 +84,7 @@ nav a:hover::before {
 	color:#444;
 }
 .zoom3 {
-	padding-left: 150px;
+	padding-left: 250px;
 	padding-right: 100px;
 	transition: transform .2s;
 }
@@ -101,6 +101,11 @@ nav a:hover::before {
 	transition: transform .2s;
 }
 
+.zoom3:hover { 
+	-ms-transform: scale(2.3); /* IE 9 */
+  	-webkit-transform: scale(2.3); /* Safari 3-8 */
+  	transform: scale(2.3); 
+}
 .zoom:hover { 
 	-ms-transform: scale(2.3); /* IE 9 */
   	-webkit-transform: scale(2.3); /* Safari 3-8 */
