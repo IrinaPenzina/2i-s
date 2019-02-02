@@ -84,10 +84,10 @@ nav a:hover::before {
 	color:#444;
 }
 .zoom3 {
-	padding-left: 250px;
+	padding-left: 300px;
 	padding-right: 100px;
-	padding-bottom: 20px;
-	transition: transform .2.5s;
+	padding-bottom: 30px;
+	transition: transform .2s;
 }
 .zoom {
 	padding-left: 150px;
