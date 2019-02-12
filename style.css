@@ -65,7 +65,7 @@ nav a:hover::before {
 	width:100%
 }
 
-.main-banner{
+.carousel-item{
 	margin: 20 auto;
 	width:350px;
 	height:500px;
@@ -74,7 +74,7 @@ nav a:hover::before {
 	position:relative;
 }
 
-.main-banner .imgban {
+.carousel-item .imgban {
 	width:100%;
 	height:100%;
 	position: absolute;
@@ -85,33 +85,35 @@ nav a:hover::before {
 	-o-transition: all ease-in-out 500ms;
 	}
 
-.main-banner #travel {
+.carousel-item #travel {
 	background-image: url(images/Travel.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.main-banner #yoga {
+.carousel-item #yoga {
 	background-image: url(images/Yoga.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.main-banner #language {
+.carousel-itemr #language {
 	background-image: url(images/Language.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.main-banner #work {
+.carousel-item #work {
 	background-image: url(images/Work.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+
 .imgbanbtn {
 	width: 30px;
 	height: 60px;
@@ -126,35 +128,46 @@ nav a:hover::before {
 .imgbanbtn:hover {
 	opacity: 0.9;
 }
-.imgbanbtn-prev {
-	left: 5px;
+.carousel-control-prev  {
+	left: 370px;
 	background-image: url(images/left.png);
 	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
+
 }
-.imgbanbtn-next {
-	right: 5px;
+.carousel-control-next {
+	right: 370px;
 	background-image: url(images/right.png);
 	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
+} 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
-.main-banner .imgban-box h3 {
-	font-family: 'Helvetica Neue', sans-serif;
+
+.carousel-indicators {
+	margin-bottom: 50px;
+}
+
+.carousel-item .carousel-caption h3 {
+	font-family: "Courier New", Courier;
 	font-size: 30px;
 	font-weight: bolder;
 	text-align: right;
 }
-.main-banner .imgban-box p {
+.carousel-item .carousel-caption p {
 	padding-top: 1px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: "Courier New", Courier;
 	font-size: 15px;
 	font-weight: bold;
 	text-align: right;
 	text-shadow: -1px -1px #666, 1px 1px #fff;
 }
-.main-banner .imgban-box {
+.carousel-item .carousel-caption {
 	padding-top: 350px;
 	padding-right: 35px;
 	color: #fff;
@@ -167,6 +180,7 @@ div a {
 div a:hover {
 	color:#444;
 }
+
 footer{
 	padding-top:50px;
 }
