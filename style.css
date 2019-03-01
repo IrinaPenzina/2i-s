@@ -1,5 +1,5 @@
 h1 {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family:"Courier New", Courier;
 	font-style:italic;
 	text-align:center;
 	font-weight:bolder;
@@ -12,7 +12,7 @@ h1 a {
 	height:100%;
 }
 h2 {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family:"Courier New", Courier;
 	font-style:italic;
 	text-align:center;
 	font-weight:bolder;
@@ -20,7 +20,7 @@ h2 {
 	color:#444;
 }
 nav {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family:"Courier New", Courier;
 	font-size:130%;
 	text-align:center;
 	font-weight:bold;
@@ -65,7 +65,7 @@ nav a:hover::before {
 	width:100%
 }
 
-.carousel-item{
+.main-banner{
 	margin: 20 auto;
 	width:350px;
 	height:500px;
@@ -74,7 +74,7 @@ nav a:hover::before {
 	position:relative;
 }
 
-.carousel-item .imgban {
+.main-banner .imgban {
 	width:100%;
 	height:100%;
 	position: absolute;
@@ -85,35 +85,33 @@ nav a:hover::before {
 	-o-transition: all ease-in-out 500ms;
 	}
 
-.carousel-item #travel {
+.main-banner #travel {
 	background-image: url(images/Travel.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.carousel-item #yoga {
+.main-banner #yoga {
 	background-image: url(images/Yoga.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.carousel-itemr #language {
+.main-banner #language {
 	background-image: url(images/Language.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.carousel-item #work {
+.main-banner #work {
 	background-image: url(images/Work.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
-
 .imgbanbtn {
 	width: 30px;
 	height: 60px;
@@ -128,38 +126,27 @@ nav a:hover::before {
 .imgbanbtn:hover {
 	opacity: 0.9;
 }
-.carousel-control-prev  {
-	left: 370px;
+.imgbanbtn-prev {
+	left: 5px;
 	background-image: url(images/left.png);
 	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
-
 }
-.carousel-control-next {
-	right: 370px;
+.imgbanbtn-next {
+	right: 5px;
 	background-image: url(images/right.png);
 	background-size: 60%;
 	background-position: center;
 	background-repeat: no-repeat;
-} 
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
 }
-
-.carousel-indicators {
-	margin-bottom: 50px;
-}
-
-.carousel-item .carousel-caption h3 {
+.main-banner .imgban-box h3 {
 	font-family: "Courier New", Courier;
 	font-size: 30px;
 	font-weight: bolder;
 	text-align: right;
 }
-.carousel-item .carousel-caption p {
+.main-banner .imgban-box p {
 	padding-top: 1px;
 	font-family: "Courier New", Courier;
 	font-size: 15px;
@@ -167,7 +154,7 @@ nav a:hover::before {
 	text-align: right;
 	text-shadow: -1px -1px #666, 1px 1px #fff;
 }
-.carousel-item .carousel-caption {
+.main-banner .imgban-box {
 	padding-top: 350px;
 	padding-right: 35px;
 	color: #fff;
@@ -180,7 +167,6 @@ div a {
 div a:hover {
 	color:#444;
 }
-
 footer{
 	padding-top:50px;
 }
@@ -194,5 +180,4 @@ footer li {
 }
 footer p {
 	float: right;
-	font-family: 'Helvetica Neue', sans-serif;
 }
